@@ -5,6 +5,7 @@
 #include "SmartLuoJia2.0.h"
 #include "afxdialogex.h"
 #include "MENU2Dlg.h"
+#include "LIBRARYSELECTDlg.h"
 
 
 
@@ -196,8 +197,9 @@ void MENU2Dlg::OnBnClickedCoursebutton()
 void MENU2Dlg::OnBnClickedLibrarybutton()
 {
 	// TODO: 在此添加控件通知处理程序代码
-
-	
+	EndDialog(IDOK);
+	LIBRARYSELECTDlg newDialog;
+	newDialog.DoModal();
 }
 
 

@@ -57,6 +57,30 @@
     <ClInclude Include="DATESETDLG.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LIBRARYSELECTDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBRARY1Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonSTL1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RECORDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TIMEDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBRARY2Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIBRARY3Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SmartLuoJia2.0.cpp">
@@ -90,6 +114,30 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DATESETDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBRARYSELECTDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBRARY1Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonSTL1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RECORDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TIMEDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBRARY2Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIBRARY3Dlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

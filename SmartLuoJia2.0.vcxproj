@@ -24,6 +24,8 @@
     <Keyword>MFCProj</Keyword>
     <RootNamespace>SmartLuoJia20</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>
+    </ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -91,7 +93,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -189,27 +191,41 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ButtonST.h" />
+    <ClInclude Include="CButtonSTL1.h" />
     <ClInclude Include="CColorButton.h" />
     <ClInclude Include="CColorButton2.h" />
+    <ClInclude Include="CommonUtils.h" />
     <ClInclude Include="COURSEDLG.h" />
     <ClInclude Include="DATESETDLG.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GRADEDLG.h" />
+    <ClInclude Include="LIBRARY1Dlg.h" />
+    <ClInclude Include="LIBRARY2Dlg.h" />
+    <ClInclude Include="LIBRARY3Dlg.h" />
+    <ClInclude Include="LIBRARYSELECTDlg.h" />
     <ClInclude Include="MENU2Dlg.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="RECORDDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SmartLuoJia2.0.h" />
     <ClInclude Include="SmartLuoJia2.0Dlg.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TIMEDlg.h" />
     <ClInclude Include="UserInf.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ButtonST.cpp" />
+    <ClCompile Include="CButtonSTL1.cpp" />
     <ClCompile Include="CColorButton.cpp" />
     <ClCompile Include="CColorButton2.cpp" />
+    <ClCompile Include="CommonUtils.cpp" />
     <ClCompile Include="COURSEDLG.cpp" />
     <ClCompile Include="DATESETDLG.cpp" />
     <ClCompile Include="GRADEDLG.cpp" />
+    <ClCompile Include="LIBRARY1Dlg.cpp" />
+    <ClCompile Include="LIBRARY2Dlg.cpp" />
+    <ClCompile Include="LIBRARY3Dlg.cpp" />
+    <ClCompile Include="LIBRARYSELECTDlg.cpp" />
     <ClCompile Include="MENU2Dlg.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -217,8 +233,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="RECORDDlg.cpp" />
     <ClCompile Include="SmartLuoJia2.0.cpp" />
     <ClCompile Include="SmartLuoJia2.0Dlg.cpp" />
+    <ClCompile Include="TIMEDlg.cpp" />
     <ClCompile Include="UserInf.cpp" />
   </ItemGroup>
   <ItemGroup>

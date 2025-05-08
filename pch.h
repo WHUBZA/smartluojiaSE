@@ -26,8 +26,17 @@
 #include <winresrc.h>
 #include <iostream>
 #include <sstream>
+#include <fstream>
 #include <string>
 #include <vector>
 #include <algorithm>
+#include "LIBRARYSELECTDlg.h"
+#include "LIBRARY1Dlg.h"
+#include "CButtonSTL1.h"
+#include "RECORDDlg.h"
+#include "TIMEDlg.h"
+#include "LIBRARY3Dlg.h"
+#include "LIBRARY2Dlg.h"
+#include "CommonUtils.h"
 #pragma comment(lib, "gdiplus.lib")
 #endif //PCH_H
