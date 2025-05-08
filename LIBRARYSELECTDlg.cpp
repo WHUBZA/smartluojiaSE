@@ -359,4 +359,5 @@ void LIBRARYSELECTDlg::OnBnClickedLibrary3Button()
     EndDialog(IDOK);
     LIBRARY3Dlg newDialog;
     newDialog.DoModal();
+
 }
